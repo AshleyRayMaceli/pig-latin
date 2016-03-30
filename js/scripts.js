@@ -2,7 +2,7 @@ var vowels = ["a", "e", "i", "o", "u", "y"];
 
 var vowelCheck = function(letter) {
   for (var i = 0; i < vowels.length; i ++) {
-      if (letter == vowels[i]) {
+      if (letter === vowels[i]) {
         return true;
       }
     }
